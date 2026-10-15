@@ -1,9 +1,25 @@
 {
-    "[csharp]": {
-        "editor.defaultFormatter": "ms-dotnettools.csharp",
-        "editor.formatOnSave": true
-    },
-    "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "fullSolution",
-    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
-    "errorLens.enabledDiagnosticLevels": ["error", "warning"]
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true
+  },
+  "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "fullSolution",
+  "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
+  "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT64",
+  "terminal.integrated.profiles.windows": {
+    "MSYS2 UCRT64": {
+      "path": "C:\\msys64\\msys2_shell.cmd",
+      "args": [
+        "-defterm",
+        "-here",
+        "-no-start",
+        "-ucrt64"
+      ],
+      "icon": "terminal-bash"
+    }
+  }
 }
